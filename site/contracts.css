@@ -1,0 +1,51 @@
+            body {
+                background-color:#ffc11c;
+                Font-family:'Boogaloo', cursive;
+                font-size:20px;
+            }
+            body * {
+                position:absolute;
+            }
+            #header {
+                width:100%;
+                height:150px;
+                background-color:black;
+                opacity:1;
+            }
+            .tabs * {
+                border-top-right-radius:10px;
+                border-top-left-radius:10px;
+                width: 130px;
+                height:35;
+                text-align:center;
+                vertical-align:text-top;
+                font-size:30px;
+                font-family:'Boogaloo', cursive;
+                color:black;
+                top:57.5px;
+            }
+            #home {
+                left:20px;
+                background-color:#eba000;
+            }
+            #credits {
+                left:471px;
+                background-color:#eba000;
+            }
+            #contracts {
+                left:170px;
+                background-color:#ffc11c;
+            }
+            #references{
+                left :320px;
+                background-color:#eba000;
+            }
+            #template-div {
+                opacity:0;
+                width:500px;
+                height:200px;
+                background-color:white;
+                border-radius:10px;
+                z-index:-1;
+                box-shadow: 7px 7px 3px #888888;
+            }
