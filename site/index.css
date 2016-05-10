@@ -1,5 +1,7 @@
             body {
-                background-color:#ebb119;
+                background-color:#ffc11c;
+                Font-family:'Boogaloo', cursive;
+                font-size:20px;
             }
             body * {
                 position:absolute;
@@ -11,10 +13,9 @@
                 opacity:1;
             }
             .tabs * {
-                background-color:white;
                 border-top-right-radius:10px;
                 border-top-left-radius:10px;
-                width: 100px;
+                width: 130px;
                 height:35;
                 text-align:center;
                 vertical-align:text-top;
@@ -25,9 +26,19 @@
             }
             #home {
                 left:20px;
+                background-color:#ffc11c;
             }
             #credits {
-                left:600px;
+                left:471px;
+                background-color:#eba000;
+            }
+            #contracts {
+                left:170px;
+                background-color:#eba000;
+            }
+            #references{
+                left :320px;
+                background-color:#eba000;
             }
             #template-div {
                 opacity:0;
